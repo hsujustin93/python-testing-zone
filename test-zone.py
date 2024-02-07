@@ -1,3 +1,9 @@
 
-name = input ("What is your name? )
-print(f"Hi {name}, nice to meet you")
+def even_odd(num):
+    if num % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+
+number = int(input("Type in a number to check if it's even or odd: "))
+even_odd(number)
